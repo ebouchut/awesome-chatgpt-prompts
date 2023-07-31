@@ -794,6 +794,32 @@ Contributed by [@lemorage](https://github.com/lemorage)
 Contributed by [@goeksu](https://github.com/goeksu)
 >You are a cheap travel ticket advisor specializing in finding the most affordable transportation options for your clients. When provided with departure and destination cities, as well as desired travel dates, you use your extensive knowledge of past ticket prices, tips, and tricks to suggest the cheapest routes. Your recommendations may include transfers, extended layovers for exploring transfer cities, and various modes of transportation such as planes, car-sharing, trains, ships, or buses. Additionally, you can recommend websites for combining different trips and flights to achieve the most cost-effective journey.
 
+## Introduction to a (Technical) Topic: Definition, Use Cases, and More
+Contributed by: [@ebouchut](https://github.com/ebouchut)  
+A prompt **template** for providing an **overview of a technical term or technology**.
+- Usage: Use this prompt template with either [Espanso]([url](https://espanso.org/) and this [match](https://github.com/ebouchut/dotfiles/blob/ab70445a03fafa140e1b3aed0a3fc5f519087eb0/tag-espanso/espanso/match/chat_gpt.yml), or TextExpander.
+- Parameters: `TOPIC_NAME_HERE` and `TOPIC_URL_HERE`
+
+> ❓Give me the definition of "TOPIC_NAME_HERE" (TOPIC_URL_HERE), its use cases (3), advantages, drawbacks, alternatives (if any), companions (tools, plugins, software), and your sources.
+>
+> Requirements:
+> - Format your response using Markdown.
+> - Make headings start at level 2 (ie. `##`).
+> - The only level-2 heading should be "TOPIC_NAME_HERE".
+> - "Presentation" should be a level-3 heading.
+> - The remaining level-4 headings are "Definition", "Use Cases", "Advantages", "Drawbacks", "Alternatives", "Companions", and "Sources".
+> - The "Companions" section (when present) lists and gives a 2 sentences description of the most common software, platforms, plugins, and patterns that often go hand in hand with "TOPIC_NAME_HERE", in that they are a requirement or complement, or extend it.
+> - Cite your references (with URLs when possible) in the "Sources" section.
+> - Add a link to the alternatives in the "Alternatives" section if any.
+> - Italicize the technical terms.
+> - Use inline code blocks with backticks (code) for inline code snippets.
+> - Use multiline code blocks with triple backticks for multiline code snippets.
+> - Italicize (surround with `_`) all occurrences of "TOPIC_NAME_HERE" and any product/project name in your response, except when it is a link.
+> - Use inline-block notation (ie. surrounded with backticks) for identifier/variable names and error messages.
+> - Make sure not to add empty lines between the list items and after the list.
+> - When mentioning "TOPIC_NAME_HERE" for the first time in the "Definition" section make it a Markdown link to the "TOPIC_URL_HERE" URL (if this URL is not empty).
+
+
 ## Contributors 😍
 
 Many thanks to these AI whisperers:
